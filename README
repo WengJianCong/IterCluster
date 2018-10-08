@@ -1,0 +1,12 @@
+data: 2018-10-08
+
+author: Jiancong Weng
+
+IterCluster is a barcode cluster algorithm for long fragment data.
+
+IterCluster contain 3 module: IterCluster, matrix-bulid and FalseRemove. Three module can be compile and run sepatately.
+
+More information about the introduction and usage of IterCluster will be released soon.
+
+If you have any question, please contain wengjiancong@genomics.cn.
+
