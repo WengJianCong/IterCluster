@@ -1,6 +1,0 @@
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/CMakeFiles/rebuild_cache.dir
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/CMakeFiles/edit_cache.dir
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/CMakeFiles/main.dir
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/src/CMakeFiles/rebuild_cache.dir
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/src/CMakeFiles/edit_cache.dir
-/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/IterCluster-MCL/src/CMakeFiles/Test.dir

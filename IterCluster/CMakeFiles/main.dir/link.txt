@@ -1,1 +1,0 @@
-/share/app/gcc-5.2.0/bin/g++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main src/libTest.a -lpthread 

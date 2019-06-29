@@ -42,6 +42,7 @@ void Cluster::checkKmerreq(int ave_depth)
 
 void Cluster::Init()
 {
+	Timer t("Init");
      for(vector<Barcode>::iterator iter = seed2barcode_p->at(seed).begin(); iter != seed2barcode_p->at(seed).end(); iter++)
      {
          for(vector<PairInBinary>::iterator iter2 = hash_index_p->at(*iter).begin(); iter2 != hash_index_p->at(*iter).end(); iter2++)
@@ -69,6 +70,7 @@ void Cluster::Init()
 
 void Cluster::CountAllReadFreq()
 {
+	Timer t("CountAllReadFreq");
     #ifdef DEBUG
     string outfile = "debug_" + to_string(seed);
     ofstream debug(outfile);
@@ -108,6 +110,7 @@ int Cluster::CountReadFreq(string read)
 
 void Cluster::RemoveRead()
 {
+	Timer("RemoveRead");
     for(unordered_map<PairInBinary*,int>::iterator iter = read2count.begin(); iter != read2count.end();)
     {
         int aveCount= (int)(iter->second / (ReadLength - k + 1));

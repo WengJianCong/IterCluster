@@ -8,7 +8,7 @@
 #include <fstream>
 
 #define ReadLength 100
-#define DEBUG
+//#define DEBUG
 using namespace std;
 
 void AddRead2freq(unordered_map<uint64_t, int> kmerfreq, string read, int k)

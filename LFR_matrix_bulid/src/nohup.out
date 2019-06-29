@@ -1,0 +1,181 @@
+-- The C compiler identification is GNU 4.4.7
+-- The CXX compiler identification is GNU 4.4.7
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src
+Scanning dependencies of target LFR-matrix-build
+[  2%] Building CXX object CMakeFiles/LFR-matrix-build.dir/ThirdParty/gzstream.cpp.o
+[  5%] Building CXX object CMakeFiles/LFR-matrix-build.dir/ThirdParty/SeqReader.cpp.o
+[  7%] Building CXX object CMakeFiles/LFR-matrix-build.dir/ThirdParty/Util.cpp.o
+[ 10%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/LFRReader.cpp.o
+[ 12%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/BQ2UKWriter.cpp.o
+[ 15%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/BC2UK_BinaryReader.cpp.o
+[ 17%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/BC2UK_BinaryWriter.cpp.o
+[ 20%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/BQ2UKReader.cpp.o
+[ 22%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IOUtils/BQMatrixWriter.cpp.o
+[ 25%] Building CXX object CMakeFiles/LFR-matrix-build.dir/Global.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 27%] Building CXX object CMakeFiles/LFR-matrix-build.dir/IndexKmer.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp: In function ‘void index_1_hash(ArrayHash<long int, int>::slot&)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:17: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:17: warning: comparison between signed and unsigned integer expressions
+[ 30%] Building CXX object CMakeFiles/LFR-matrix-build.dir/Read2KmerCount.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp: At global scope:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp:128: warning: ‘void printKmerAnlysis(ArrayHash<long int, long int>::slot&)’ defined but not used
+[ 32%] Building CXX object CMakeFiles/LFR-matrix-build.dir/Kmer2BarcodeHash.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerBuffer.h:6,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Kmer2BarcodeHash.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 35%] Building CXX object CMakeFiles/LFR-matrix-build.dir/BarcodeMutrix.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp: At global scope:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp:14: warning: ‘totals’ defined but not used
+[ 37%] Building CXX object CMakeFiles/LFR-matrix-build.dir/main.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/main.cpp:2:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:4,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/main.cpp:2:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h: In constructor ‘FullArray<KEY_TYPE>::FullArray(int) [with KEY_TYPE = long int]’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/main.cpp:241:   instantiated from here
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:35: warning: ‘FullArray<long int>::array’ will be initialized after
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:14: warning:   ‘const long int FullArray<long int>::size’
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:16: warning:   when initialized here
+[ 40%] Linking CXX executable /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/bin/LFR-matrix-build
+[ 40%] Built target LFR-matrix-build
+Scanning dependencies of target LFR-matrix-test
+[ 42%] Building CXX object CMakeFiles/LFR-matrix-test.dir/ThirdParty/gzstream.cpp.o
+[ 45%] Building CXX object CMakeFiles/LFR-matrix-test.dir/ThirdParty/SeqReader.cpp.o
+[ 47%] Building CXX object CMakeFiles/LFR-matrix-test.dir/ThirdParty/Util.cpp.o
+[ 50%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/LFRReader.cpp.o
+[ 52%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/BQ2UKWriter.cpp.o
+[ 55%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/BC2UK_BinaryReader.cpp.o
+[ 57%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/BC2UK_BinaryWriter.cpp.o
+[ 60%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/BQ2UKReader.cpp.o
+[ 62%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IOUtils/BQMatrixWriter.cpp.o
+[ 65%] Building CXX object CMakeFiles/LFR-matrix-test.dir/Global.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 67%] Building CXX object CMakeFiles/LFR-matrix-test.dir/IndexKmer.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp: In function ‘void index_1_hash(ArrayHash<long int, int>::slot&)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:17: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/IndexKmer.cpp:17: warning: comparison between signed and unsigned integer expressions
+[ 70%] Building CXX object CMakeFiles/LFR-matrix-test.dir/Read2KmerCount.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp: At global scope:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerCount.cpp:128: warning: ‘void printKmerAnlysis(ArrayHash<long int, long int>::slot&)’ defined but not used
+[ 72%] Building CXX object CMakeFiles/LFR-matrix-test.dir/Kmer2BarcodeHash.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Read2KmerBuffer.h:6,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Kmer2BarcodeHash.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 75%] Building CXX object CMakeFiles/LFR-matrix-test.dir/BarcodeMutrix.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp:5:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp: At global scope:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/BarcodeMutrix.cpp:14: warning: ‘totals’ defined but not used
+[ 77%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/UniqueKmerArray_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/UniqueKmerArray_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/UniqueKmerArray_test.cpp: In function ‘void UniqueKmerArray_Correct()’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/UniqueKmerArray_test.cpp:29: warning: comparison between signed and unsigned integer expressions
+[ 80%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/MultiThread_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/MultiThread_test.cpp:2:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 82%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/ArrayHash_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/ArrayHash_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 85%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/KmerHash_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/KmerHash_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:4,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/KmerHash_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h: In constructor ‘FullArray<KEY_TYPE>::FullArray(int) [with KEY_TYPE = long int]’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/KmerHash_test.cpp:27:   instantiated from here
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:35: warning: ‘FullArray<long int>::array’ will be initialized after
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:14: warning:   ‘const long int FullArray<long int>::size’
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/KmerHash.h:16: warning:   when initialized here
+[ 87%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/SeqReader_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/SeqReader_test.cpp:2:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 90%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/LFRReader_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/LFRReader_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 92%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/BQ2KmerWR_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/BQ2KmerWR_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 95%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test/KmerBuffer_test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/KmerBuffer_test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[ 97%] Building CXX object CMakeFiles/LFR-matrix-test.dir/test.cpp.o
+In file included from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/Global.h:5,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test/Test.h:13,
+                 from /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/test.cpp:1:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h: In member function ‘int UniqueKmerArray25Bit::GetBarcodeId(int, int)’:
+/ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/src/UniqueKmerArray.h:139: warning: comparison between signed and unsigned integer expressions
+[100%] Linking CXX executable /ldfssz1/MGI_ALGORITHM/assembly/wengjiancong/My_software/LFR_matrix_bulid/LFR/bin/LFR-matrix-test
+[100%] Built target LFR-matrix-test

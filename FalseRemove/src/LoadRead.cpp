@@ -1,4 +1,4 @@
-#define BEBUG
+//#define BEBUG
 #include "Barcode2Read.h"
 #include "SeqReader.h"
 #include "SeqOperator.h"

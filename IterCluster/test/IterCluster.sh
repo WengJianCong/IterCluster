@@ -1,2 +1,0 @@
-#test 10ng data
-../IterCluster-MCL -m /ldfssz1/MGI_ALGORITHM/assembly/chentian/05.Mercedes/Lib9-G50/04.Cluster-debug/tmp.barcode_matrix -i /ldfssz1/MGI_ALGORITHM/assembly/chentian/05.Mercedes/Lib9-G50/04.Cluster-debug/tmp.barcode_info -b /ldfssz1/MGI_ALGORITHM/assembly/chentian/05.Mercedes/Lib9-G50/04.Cluster-debug/tmp.barcode2kmer -h 12 -c 10 -k 4 -n 1500 -r 0.3 -g 100 -f 3 -a 2 -t 10 -s 1 -d 1 1>cout.log 2>cerr.log
