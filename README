@@ -9,7 +9,7 @@ IterCluster contain 3 module: IterCluster, matrix-bulid and FalseRemove. Three m
 Requirement:
 1. GCC version 4.4.7
 2. cmake version 3.9
-Please make sure gcc、g++ and cmake are under /usr/bin/ path. 
+Please make sure gcc、g++ and cmake are under /usr/bin/. . 
 
 Here is a introduction to install cmake:
 1. wget https://github.com/Kitware/CMake/releases/download/v3.14.3/cmake-3.14.3-Linux-x86_64.tar.gz
