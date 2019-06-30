@@ -7,7 +7,7 @@ IterCluster is a barcode cluster algorithm for long fragment data.
 IterCluster contain 3 module: IterCluster, matrix-bulid and FalseRemove. Three module can be compile and run sepatately.
 
 Requirement:
-1. GCC version 4.4.7
+1. GCC version 5.2.0
 2. cmake version 3.9
 Please make sure gcc、g++ and cmake are under /usr/bin/. . 
 
