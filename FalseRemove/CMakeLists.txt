@@ -7,5 +7,5 @@ add_definitions(-std=c++11)
 include_directories( src )
 TARGET_LINK_LIBRARIES( main Test )
 TARGET_LINK_LIBRARIES(main -lpthread -lz)
-SET(CMAKE_C_COMPILER "/share/app/gcc-5.2.0/bin/g++")
+SET(CMAKE_C_COMPILER "/usr/bin/g++")
 
